@@ -1,18 +1,19 @@
-### 1) Programar, utilizando sockets, um servidor que atenda aos clientes invertendo uma string recebida (peça para o cliente digitar a mensagem que será invertida). Utilizar UDP.
-### 2) Implemente um programa com sockets multicast composto de um servidor que atenda aos clientes invertendo uma string recebida (peça para o cliente digitar a mensagem que será invertida). Utilizar UDP.
+### 1) Develop a UDP server using sockets that handles clients by reversing a received string (prompt the client to enter the message to be reversed). Use UDP.
 
-Implementar dois programas, em linguagem de programação Python conforme descrito abaixo:
-[PROGRAMA 1] Programar, utilizando RPC, um servidor que atenda aos clientes invertendo uma string recebida (peça para o cliente digitar a mensagem que será invertida).
-[PROGRAMA 2] Programar, utilizando RPC, um sistema cliente-servidor, em que o cliente insira dois números, envie para o servidor que somará os dois números e retornará com a resposta. O cliente deve mostrar o resultado.
+### 2) Implement a multicast socket program consisting of a server that handles clients by reversing a received string (prompt the client to enter the message to be reversed). Use UDP.
 
-#### Abrir uma das pastas no terminal
-#### Como rodar o projeto:
-#### Ter instlado python3 
-#### Abrir um terminal para rodar o servidor
+Implement two programs in Python as described below:
+
+- **[PROGRAM 1]** Develop a server using RPC that handles clients by reversing a received string (prompt the client to enter the message to be reversed).
+
+- **[PROGRAM 2]** Develop a client-server system using RPC, where the client inputs two numbers, sends them to the server, which sums the numbers and returns the result. The client should display the result.
+
+#### Open one of the folders in the terminal
+
+#### How to run the project:
+
+#### Make sure Python 3 is installed
+
+#### Open a terminal to run the server
 ```bash
-  python servidor.py
-```
-#### Abrir um terminal para rodar o cliente
-```bash
-  python cliente.py
-```
+python servidor.py
